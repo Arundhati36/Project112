@@ -1,0 +1,41 @@
+body
+{
+  color: white;
+  background: #e03b67;
+}
+.heading{
+    font-size: 18px;
+    border-radius: 10px;
+    letter-spacing: 10px;
+}
+.gesture{
+    font-size:48px
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_gesture_name
+{
+  color: black;
+}
+.gesture_name
+{
+  font-size: 40px;
+}
+#webcam_title, #snapshot_title, #prediction_title{
+    background:#FFF;
+    color:green;
+    border-radius:5px;
+    padding:10px;
+}
+#result{
+  height : 350px;
+  width:350px;
+}
